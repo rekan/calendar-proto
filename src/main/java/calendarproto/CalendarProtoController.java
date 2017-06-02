@@ -12,8 +12,4 @@ public class CalendarProtoController {
         return "index";
     }
 
-    @RequestMapping(value = "/second", method = {RequestMethod.GET, RequestMethod.POST})
-    public String second() {
-        return "second";
-    }
 }
